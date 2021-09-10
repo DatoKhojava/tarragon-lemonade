@@ -146,7 +146,180 @@
 /* MEDIA QUERY */
 
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {...} */
+@media only screen and (max-width: 320px) {
+  .tittle {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.8em;
+  }
+
+  .sub-tittle {
+    font-family: "Glory", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.85em;
+  }
+
+  .hexagon {
+    /* display: none; */
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .tittle {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+  }
+
+  .sub-tittle {
+    font-family: "Glory", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.85em;
+  }
+
+  .hexagon {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .tittle {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+  }
+
+  .sub-tittle {
+    font-family: "Glory", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.85em;
+  }
+
+  .hexagon {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tittle {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2em;
+  }
+
+  .sub-tittle {
+    font-family: "Glory", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.25em;
+  }
+
+  .hexagon {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .tittle {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2.825em;
+  }
+
+  .sub-tittle {
+    font-family: "Glory", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5em;
+  }
+
+  .hexagon {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+}
+
+@media only screen and (max-width: 1442px) {
+  .tittle {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 3.825em;
+  }
+
+  .sub-tittle {
+    font-family: "Glory", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2em;
+  }
+
+  .hexagon {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+}
 
 /* END OF MEDIA QUERY */
 
