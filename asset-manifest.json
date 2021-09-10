@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tarragon-lemonade/static/css/main.758f38b3.chunk.css",
+    "main.js": "/tarragon-lemonade/static/js/main.e5e7fa99.chunk.js",
+    "main.js.map": "/tarragon-lemonade/static/js/main.e5e7fa99.chunk.js.map",
+    "runtime-main.js": "/tarragon-lemonade/static/js/runtime-main.b67cf729.js",
+    "runtime-main.js.map": "/tarragon-lemonade/static/js/runtime-main.b67cf729.js.map",
+    "static/js/2.79036018.chunk.js": "/tarragon-lemonade/static/js/2.79036018.chunk.js",
+    "static/js/2.79036018.chunk.js.map": "/tarragon-lemonade/static/js/2.79036018.chunk.js.map",
+    "index.html": "/tarragon-lemonade/index.html",
+    "static/css/main.758f38b3.chunk.css.map": "/tarragon-lemonade/static/css/main.758f38b3.chunk.css.map",
+    "static/js/2.79036018.chunk.js.LICENSE.txt": "/tarragon-lemonade/static/js/2.79036018.chunk.js.LICENSE.txt",
+    "static/media/cube.207d5b75.png": "/tarragon-lemonade/static/media/cube.207d5b75.png",
+    "static/media/hexagon.9bccc981.png": "/tarragon-lemonade/static/media/hexagon.9bccc981.png",
+    "static/media/triangle.1ce0d18e.png": "/tarragon-lemonade/static/media/triangle.1ce0d18e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b67cf729.js",
+    "static/js/2.79036018.chunk.js",
+    "static/css/main.758f38b3.chunk.css",
+    "static/js/main.e5e7fa99.chunk.js"
+  ]
+}
