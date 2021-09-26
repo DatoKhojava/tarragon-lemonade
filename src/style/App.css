@@ -2,8 +2,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap");
 
 .app {
+  /* background: rgb(238, 238, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 238, 238, 1) 10%,
+    rgba(237, 237, 237, 1) 16%,
+    rgba(212, 212, 212, 1) 33%,
+    rgba(222, 210, 210, 1) 100%
+  ); */
+  /* background-color: black; */
+}
+
+.carousel {
   width: 100%;
   height: calc(100vh);
+  /* background-color: blueviolet; */
+}
+
+.mario-box {
+  background: rgb(238, 238, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 238, 238, 1) 10%,
+    rgba(237, 237, 237, 1) 16%,
+    rgba(212, 212, 212, 1) 33%,
+    rgba(222, 210, 210, 1) 100%
+  );
+  height: calc(100vh);
+}
+
+.pagination {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 10px;
+  justify-content: center;
   background: rgb(238, 238, 238);
   background: linear-gradient(
     90deg,
@@ -14,8 +47,16 @@
   );
 }
 
+.one {
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+  margin: 3px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
 .box {
-  /* border: 1px solid black; */
   position: absolute;
   top: 40%;
   left: 7%;
@@ -144,131 +185,159 @@
 /* END OF DECORATION */
 
 /* MEDIA QUERY */
+@media (min-width: 1281px) {
+  @-webkit-keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @-webkit-keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 90%;
+    }
+  }
+  @keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 90%;
+    }
+  }
+}
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 320px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   .tittle {
     font-family: "Press Start 2P", cursive;
     padding: 0px;
     margin: 0px;
-    font-size: 0.8em;
+    font-size: 2.9em;
   }
 
   .sub-tittle {
     font-family: "Glory", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    font-size: 0.85em;
-  }
-
-  .hexagon {
-    /* display: none; */
-    width: 50px;
-    height: auto;
-    position: absolute;
-    top: 60%;
-    left: 80%;
-    margin: 0px;
-    padding: 0px;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .tittle {
-    font-family: "Press Start 2P", cursive;
-    padding: 0px;
-    margin: 0px;
-    font-size: 1em;
-  }
-
-  .sub-tittle {
-    font-family: "Glory", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    font-size: 0.85em;
-  }
-
-  .hexagon {
-    width: 80px;
-    height: auto;
-    position: absolute;
-    top: 60%;
-    left: 60%;
-    margin: 0px;
-    padding: 0px;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .tittle {
-    font-family: "Press Start 2P", cursive;
-    padding: 0px;
-    margin: 0px;
-    font-size: 1em;
-  }
-
-  .sub-tittle {
-    font-family: "Glory", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    font-size: 0.85em;
-  }
-
-  .hexagon {
-    width: 80px;
-    height: auto;
-    position: absolute;
-    top: 60%;
-    left: 60%;
-    margin: 0px;
-    padding: 0px;
-    -webkit-animation: spin 4s linear infinite;
-    -moz-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .tittle {
-    font-family: "Press Start 2P", cursive;
     padding: 0px;
     margin: 0px;
     font-size: 2em;
   }
 
-  .sub-tittle {
-    font-family: "Glory", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    font-size: 1.25em;
-  }
-
   .hexagon {
-    width: 120px;
+    width: 200px;
     height: auto;
     position: absolute;
     top: 60%;
-    left: 60%;
+    left: 67%;
     margin: 0px;
     padding: 0px;
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
   }
+
+  @-webkit-keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @-webkit-keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 90%;
+    }
+  }
+  @keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 90%;
+    }
+  }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .tittle {
     font-family: "Press Start 2P", cursive;
     padding: 0px;
     margin: 0px;
-    font-size: 2.825em;
+    font-size: 2.1em;
+  }
+
+  .sub-tittle {
+    font-family: "Glory", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.9em;
+  }
+
+  .hexagon {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 67%;
+    margin: 0px;
+    padding: 0px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+
+  @-webkit-keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @-webkit-keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 90%;
+    }
+  }
+  @keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 90%;
+    }
+  }
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  CSS
+  
+} */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .tittle {
+    font-family: "Press Start 2P", cursive;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3em;
   }
 
   .sub-tittle {
@@ -279,45 +348,99 @@
   }
 
   .hexagon {
-    width: 120px;
+    width: 200px;
     height: auto;
     position: absolute;
     top: 60%;
-    left: 60%;
+    left: 48%;
     margin: 0px;
     padding: 0px;
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
   }
+
+  @-webkit-keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @-webkit-keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 80%;
+    }
+  }
+  @keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 80%;
+    }
+  }
 }
 
-@media only screen and (max-width: 1442px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .tittle {
     font-family: "Press Start 2P", cursive;
     padding: 0px;
     margin: 0px;
-    font-size: 3.825em;
+    font-size: 0.9em;
   }
 
   .sub-tittle {
     font-family: "Glory", sans-serif;
     padding: 0px;
     margin: 0px;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .hexagon {
-    width: 120px;
+    width: 200px;
     height: auto;
     position: absolute;
     top: 60%;
-    left: 60%;
+    left: 24%;
     margin: 0px;
     padding: 0px;
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
+  }
+
+  @-webkit-keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @keyframes play {
+    100% {
+      background-position: -284px;
+    }
+  }
+  @-webkit-keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 70%;
+    }
+  }
+  @keyframes run {
+    from {
+      left: -500px;
+    }
+    to {
+      left: 70%;
+    }
   }
 }
 
